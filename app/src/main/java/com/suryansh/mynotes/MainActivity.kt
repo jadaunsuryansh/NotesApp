@@ -44,13 +44,14 @@ class MainActivity : AppCompatActivity() {
 
             when(it.itemId){
                 R.id.notes -> {
-                    startActivity(Intent(this@MainActivity, MainActivity::class.java))
+                    drawerLayout.closeDrawers()
                 }
                 R.id.starred -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, StarredNotesFragment())
                         .commit()
 
+                    supportActionBar?.title = "Starred"
                     drawerLayout.closeDrawers()
 
                 }
@@ -58,6 +59,8 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, ReminderNotesFragment())
                         .commit()
+
+                    supportActionBar?.title = "Reminders"
 
                     drawerLayout.closeDrawers()
 
@@ -67,6 +70,8 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.frame, DiaryFragment())
                         .commit()
 
+                    supportActionBar?.title = "Diary"
+
                     drawerLayout.closeDrawers()
 
                 }
@@ -74,6 +79,8 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, FinanceFragment())
                         .commit()
+
+                    supportActionBar?.title = "Finance"
 
                     drawerLayout.closeDrawers()
 
@@ -83,12 +90,16 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.frame, HealthNotesFragment())
                         .commit()
 
+                    supportActionBar?.title = "Health"
+
                     drawerLayout.closeDrawers()
                 }
                 R.id.personal -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, PersonalNotesFragment())
                         .commit()
+
+                    supportActionBar?.title = "Personal"
 
                     drawerLayout.closeDrawers()
                 }
@@ -97,12 +108,16 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.frame, ShoppingNotesFragment())
                         .commit()
 
+                    supportActionBar?.title = "Shopping"
+
                     drawerLayout.closeDrawers()
                 }
                 R.id.work -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, WorkNotesFragment())
                         .commit()
+
+                    supportActionBar?.title = "Work"
 
                     drawerLayout.closeDrawers()
                 }
@@ -111,23 +126,33 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.frame, WithoutFolderFragment())
                         .commit()
 
+                    supportActionBar?.title = "Without Folder"
+
                     drawerLayout.closeDrawers()
                 }
                 R.id.manageFolders -> {
                     startActivity(Intent(this@MainActivity, ManageFolderActivity::class.java))
+
+                    supportActionBar?.title = "Manage Folders"
                 }
+
+
                 R.id.trash -> {
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.frame, TrashFragment())
                         .commit()
 
+                    supportActionBar?.title = "Trash"
+
                     drawerLayout.closeDrawers()
                 }
                 R.id.settings -> {
                     startActivity(Intent(this@MainActivity, SettingsActivity::class.java))
+                    supportActionBar?.title = "Settings"
                 }
                 R.id.premium -> {
                     startActivity(Intent(this@MainActivity, PremiumActivity::class.java))
+                    supportActionBar?.title = "Premium"
                 }
 
 
