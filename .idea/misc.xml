@@ -11,6 +11,7 @@
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_health_notes.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_manage_folder.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_notes.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_personal.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_premium.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_reminder_notes.xml" value="0.17552083333333332" />
@@ -21,17 +22,25 @@
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/activity_work.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/content_finance_notes.xml" value="0.1" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/drawer_header.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_diary.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_finance.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_first.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_health_notes.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_notes.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_personal_notes.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_reminder_notes.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_shopping_notes.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_starred_notes.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_trash.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_without_folder.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/fragment_work_notes.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/note_rv_item.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/settings_activity.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/layout/test.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/menu/menu_app.xml" value="0.17552083333333332" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/menu/menu_drawer.xml" value="0.1" />
         <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/menu/sub_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/2 2/Udaghosh Intern/MyNotes/app/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>
