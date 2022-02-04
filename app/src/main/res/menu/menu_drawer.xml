@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notes"
+        android:title="Notes"
+        android:icon="@drawable/ic_notes"/>
+
+    <item
+        android:id="@+id/starred"
+        android:title="Starred"
+        android:icon="@drawable/ic_starred"/>
+
+    <item
+        android:id="@+id/reminders"
+        android:title="Reminders"
+        android:icon="@drawable/ic_reminders"/>
+
+    <item
+        android:id="@+id/folders"
+        android:title="Folders"
+        android:icon="@drawable/ic_folders">
+        <menu>
+
+            <item
+                android:id="@+id/diary"
+                android:title="Diary"
+                />
+
+            <item
+                android:id="@+id/finance"
+                android:title="Finance"
+                />
+
+            <item
+                android:id="@+id/health"
+                android:title="Health"
+                />
+
+            <item
+                android:id="@+id/personal"
+                android:title="Personal"
+                />
+
+            <item
+                android:id="@+id/shopping"
+                android:title="Shopping"/>
+            <item
+                android:id="@+id/work"
+                android:title="Work"/>
+            <item
+                android:id="@+id/withoutFolder"
+                android:title="Without Folder"
+                />
+            <item
+                android:id="@+id/manageFolders"
+                android:title="Manage folders"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/trash"
+        android:title="Trash"
+        android:icon="@drawable/ic_trash"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/premium"
+        android:title="Premium"
+        android:icon="@drawable/ic_premium"/>
+
+</menu>
