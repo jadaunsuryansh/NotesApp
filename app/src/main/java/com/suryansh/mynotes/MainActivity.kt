@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.title = "Starred"
                     drawerLayout.closeDrawers()
 
+
                 }
                 R.id.reminders -> {
                     supportFragmentManager.beginTransaction()
