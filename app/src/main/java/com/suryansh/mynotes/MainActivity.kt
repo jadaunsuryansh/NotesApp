@@ -3,6 +3,7 @@ package com.suryansh.mynotes
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var toolbar: Toolbar
     lateinit var frameLayout: FrameLayout
     lateinit var navigationView: NavigationView
+
+    var previousMenuItem: MenuItem? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,6 +44,14 @@ class MainActivity : AppCompatActivity() {
         actionBarDrawerToggle.syncState()
 
         navigationView.setNavigationItemSelectedListener {
+
+            if(previousMenuItem!= null){
+                previousMenuItem?.isChecked = false
+            }
+
+            it.isCheckable = true
+            it.isChecked = true
+            previousMenuItem = it
 
             when(it.itemId){
                 R.id.notes -> {
