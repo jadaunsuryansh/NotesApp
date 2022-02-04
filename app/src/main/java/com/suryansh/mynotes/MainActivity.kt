@@ -34,6 +34,12 @@ class MainActivity : AppCompatActivity() {
         navigationView = findViewById(R.id.NavigationView)
         setUpToolbar()
 
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.frame, NotesFragment())
+            .commit()
+
+        supportActionBar?.title = "Notes"
+
         val actionBarDrawerToggle = ActionBarDrawerToggle(this@MainActivity,
             drawerLayout,
             R.string.open_drawer,
@@ -55,6 +61,11 @@ class MainActivity : AppCompatActivity() {
 
             when(it.itemId){
                 R.id.notes -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.frame, NotesFragment())
+                        .commit()
+
+                    supportActionBar?.title = "Notes"
                     drawerLayout.closeDrawers()
                 }
                 R.id.starred -> {
